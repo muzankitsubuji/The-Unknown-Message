@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>The Unknown Message</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpeg" alt="Cena inicial" class="imagem-cenario">
+            <p>Você recebeu uma mensagem misteriosa no celular, sem remetente, dizendo: "Vá à praça da cidade à meia-noite."</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a praça</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar a mensagem</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="praça" class="imagem-cenario">
+            <p>Você decide ir à praça. Quando chega, está estranhamente silenciosa e deserta. Você sente um arrepio na espinha, mas continua.</p>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.jpeg" alt="mensagem" class="imagem-cenario">
+            <p>Você ignora a mensagem e decide não ir à praça. No entanto, à meia-noite, você não consegue dormir, sentindo uma curiosidade crescente e a sensação de que está perdendo algo importante.</p>
+            <button class="btn-proximo" data-proximo="4">Mudar de ideia e ir à praça</button>
+            <button class="btn-proximo" data-proximo="5">Ficar em casa e esquecer</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.jpeg" alt="a figura" class="imagem-cenario">
+            <p>De repente, as luzes da praça piscam, e uma figura sombria aparece perto do coreto.</p>
+            <button class="btn-proximo" data-proximo="6">Se aproximar da figura</button>
+            <button class="btn-proximo" data-proximo="7">Ficar onde está e observar</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo1.png" alt="figura 2" class="imagem-cenario">
+            <p>Você decide mudar de ideia e vai para a praça. Chegando lá, encontra o mesmo cenário silencioso e a figura sombria perto do coreto.</p>
+            <button class="btn-proximo" data-proximo="6">Se aproximar da figura</button>
+            <button class="btn-proximo" data-proximo="7">Ficar onde está e observar</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo7.jpeg" alt="inquetaçao" class="imagem-cenario">
+            <p>Você decide ficar em casa, mas à noite, tem um sonho estranho com a praça e o diário. Na manhã seguinte, encontra o diário misteriosamente em sua porta.</p>
+            <button class="btn-proximo" data-proximo="8">apanhar o diario</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo4.jpeg" alt="diario" class="imagem-cenario">
+            <p>Ao se aproximar, a figura se dissipa, revelando um antigo diário no banco do coreto. Você sente que encontrou algo importante.</p>
+            <button class="btn-proximo" data-proximo="8">tomar el diario</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo6.jpeg" alt="diario" class="imagem-cenario">
+            <p>Você observa de longe. A figura parece perceber sua hesitação e desaparece. Curioso, você se aproxima e encontra um diário no banco do coreto.</p>
+            <button class="btn-proximo" data-proximo="8">abrir </button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jpeg" alt="o segredo" class="imagem-cenario">
+            <p>Ao abrir o diário, percebe que ele pertenceu a uma antepassada sua e contém segredos sobre sua família e a história da cidade.</p>
+            <button class="btn-proximo" data-proximo="9">Continuar leyendo el diario</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.jpeg" alt="pistas" class="imagem-cenario">
+            <p>O diário indica duas localizações possíveis para encontrar a próxima pista: o velho moinho ou o cemitério da cidade.</p>
+            <button class="btn-proximo" data-proximo="10">Ir ao velho moinho</button>
+            <button class="btn-proximo" data-proximo="11">Ir ao cemitério</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.jpeg" alt="localizaçao" class="imagem-cenario">
+            <p>No moinho, você encontra um mapa antigo escondido sob uma pedra solta.</p>
+            <button class="btn-proximo" data-proximo="12">usar suas habilidades de Cartógrafo</button>
+        </div>
+        
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpeg" alt="caverna" class="imagem-cenario">
+            <p>No cemitério, você encontra uma lápide com um código gravado nela, que parece corresponder a uma localização no mapa.</p>
+            <button class="btn-proximo" data-proximo="12">você usa sua orientação</button>
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo12.jpeg" alt="caverna" class="imagem-cenario">
+            <p>Tanto no moinho quanto no cemitério, as pistas apontam para uma caverna secreta fora da cidade. Você sente que está se aproximando de algo grande.</p>
+            <button class="btn-proximo" data-proximo="13">proseguir</button>
+        </div>
+        
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13.jpeg" alt="tesouro" class="imagem-cenario">
+            <p>Dentro da caverna, você encontra um baú trancado com o mesmo símbolo do diário. Dentro, há joias antigas e uma carta que revela o tesouro da sua família, escondido por gerações. O tesouro é mais do que riqueza material; é uma conexão com sua história familiar e a promessa de que você deve proteger esse legado.</p>
+            <button class="btn-proximo" data-proximo="14">voltar para casa</button>
+        </div>
+        
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passo14.jpeg" alt="the end" class="imagem-cenario">
+            <p>Parabéns, você completou a aventura! O mistério da praça e o legado de sua família agora são seus para proteger.</p>
+            <button class="btn-proximo" data-proximo="15">fim</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passo15.jpeg" alt="the end" class="imagem-cenario">
+            <p>Independentemente das escolhas, você acaba descobrindo o diário e, eventualmente, o tesouro, mas cada decisão molda a experiência de como você chega lá.</p>
+            <button class="btn-proximo" data-proximo="15">the end</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
